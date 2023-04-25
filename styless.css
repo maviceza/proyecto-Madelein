@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2? family= Schibsted+Grotesk:wght@400;700 & display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family:'Schibsted Grotesk','Times New Roman', Times, serif;
+    background-color: #fbfbfb;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: #fbfbfb;
+    justify-content: space-between;
+    align-items: end;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: safe;
+}
+
+.logo img{
+    height: 30px;
+    margin-right: 10px;
+}
+
+h2{
+    color: #af599e;
+    font-size: 36px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row{
+
+}
+
+.made{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+h3{
+    font-size: 28px;
+    text-align: center;
+}
+
+h4{
+    background-color: darkmagenta;
+    text-align: center;
+    color: #fbfbfb;
+    font-size:20px;
+    border-radius: 10px;
+}
+
+.hablemos{
+    text-align:center;
+    background-color: rgba(175, 89,158,0.3);
+    padding: 15px;
+}
+
+h5{
+    background-color:darkmagenta;
+    text-align: center;
+    color: #fbfbfb;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+
+
