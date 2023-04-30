@@ -2,35 +2,16 @@
 
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    font-family:'Schibsted Grotesk','Times New Roman', Times, serif;
-    background-color: #fbfbfb;
 }
-
 header{
     display: flex;
-    min-height: 70px;
+    min-height: 90px;
     background-color: #fbfbfb;
+    align-items: center;
     justify-content: space-between;
-    align-items: end;
     padding: 10px;
-}
-
-.logo{
-    display: flex;
-    align-items: safe;
-}
-
-.logo img{
-    height: 30px;
-    margin-right: 10px;
-}
-
-h2{
-    color: #af599e;
-    font-size: 36px;
+    position: sticky;
+    top:0
 }
 
 a{
@@ -38,50 +19,149 @@ a{
     color: inherit;
 }
 
-main{
-    max-width: 1200px;
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    height: 150px;
+    width: 150px;
+    margin-right: 10px;
+}
+
+.logo2{
+    height: 150px;
+    width: 150px;
+}
+
+nav a{
+    font-weight: 500;
+    padding-right: 15px;
+}
+
+nav a:hover{
+    color: aliceblue;
+}
+
+.nombre{
+    color:#af599e;
+    font-size:36px;
+    justify-content: flex-start;
+}
+
+.main{
     margin: auto;
-}
-
-.row{
-
-}
-
-.made{
-    width: 40px;
-    height: 40px;
-    background-size: cover;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-h3{
-    font-size: 28px;
     text-align: center;
+    font-family: "Schibsted+Grotesk", sans-serif;
+    justify-content: center;
+}
+@media screen and (max-width: 700px){
+    main{flex-direction: column;
+    }
 }
 
-h4{
-    background-color: darkmagenta;
-    text-align: center;
+.seccion{
+    min-height: 100vh;
+}
+
+.inicio-made{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0;
+    border:100px
+}
+
+img{
+    width: 400px;
+    height: 400px;
+}
+
+.inicio-consulta{
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 20px 20px;
+    margin: 20px;
+}
+
+.principal-boton{
+    font-size: 20px;
+    background-color: #af599e;
     color: #fbfbfb;
-    font-size:20px;
-    border-radius: 10px;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 50px;
 }
 
 .hablemos{
-    text-align:center;
-    background-color: rgba(175, 89,158,0.3);
-    padding: 15px;
-}
-
-h5{
-    background-color:darkmagenta;
     text-align: center;
-    color: #fbfbfb;
-    font-size: 20px;
-    border-radius: 10px;
+    padding: 40px 40px;
+    font-size: 28px;
+    background-color: rgba(175, 89, 158, 0.3);
+    color: #0f0f0f;
+    line-height: 20px 20px;
 }
 
+.ha{
+    padding: 40px 40px;
+    font-size: 28px;
+    background-color: rgba(175, 89, 158, 0.3);
+    color: #0f0f0f;
+    line-height: 20px 20px;
+}
 
+.p{
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 15px 15px;
+    padding: 100px 155px;
+}
 
+.iconos{
+    display: inline;
+    padding: 20px;
+}
 
+.corre1{
+    width: 100px;
+    height: 100px;
+}
+
+.linke1{
+    width: 100px;
+    height: 100px;
+}
+
+.git1{
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width:400px){
+    .correo,.like, .git{
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.h3{
+    font-size: 10px;
+    color: #fbfbfb;
+}
+
+.pagina{
+    text-align: center;
+    margin-top: auto;
+}
+
+footer{
+    background-color:darkmagenta;
+    box-sizing: border-box;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    min-height: 90px;
+}
